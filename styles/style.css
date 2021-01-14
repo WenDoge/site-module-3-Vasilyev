@@ -1,0 +1,91 @@
+@font-face{
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-family: 'OpenSans Bold';
+}
+@font-face{
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-family: 'OpenSans Regular';
+}
+@font-face{
+    src: url('../fonts/OpenSans-Italic.ttf');
+    font-family: 'OpenSans Italic';
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+header{
+    padding: 25px 0;
+    border-bottom: 2px solid orange;
+    text-align: center;
+}
+.link{
+    color: rgb(153, 100, 2);
+}
+.link:hover{
+    color: rgb(218, 233, 12);
+}
+.nav-link{
+    background-color: rgba(80, 80, 80, 0.2);
+    box-sizing: border-box;
+    border: thin solid black;
+    border-radius: 20%;
+    padding: 5px 15px;
+    margin: 10px;
+}
+.nav-link:hover{
+    background-color: rgba(32, 32, 151, 0.356);
+    transition-duration: .5s;
+}
+body{
+    font-family:'OpenSans Regular', Helvetica, Arial, sans-serif;
+}
+.main-wrapper{
+    display:flex;
+}
+.main-wrapper__block{
+    min-width: 400px;
+    padding: 10px 20px;
+}
+h1, h2{
+    display:block;
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+    margin: 20px;
+    color: rgb(107, 76, 35);
+}
+.title{
+    text-align: center;
+}
+.img-photo {
+    padding: 20px;
+    text-align: center;
+}
+.img{
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.img-icon{
+    padding-right: 10px;
+    width: 20px;
+}
+.subtitle{
+    border-left: 4px solid brown;
+    padding-left: 20px;
+    color: rgb(107, 76, 35);
+    font-size: 1.5em;
+}
+li, p{
+    margin-left: 40px;
+}
+footer{
+    border-top: 2px solid brown;
+    text-align:center;
+    padding: 20px;
+}
+#contacts{
+    text-align: center;
+    border-left: none;
+}
