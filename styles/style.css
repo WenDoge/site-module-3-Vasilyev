@@ -43,7 +43,6 @@ header{
 }
 .main-wrapper{
     display:flex;
-    height: 90vh;
     justify-content: center;
 }
 
@@ -55,7 +54,7 @@ h1, h2{
     display:block;
     font-family: 'PT Serif', serif;
     font-size: 2em;
-    margin: 20px;
+    margin: 16px;
     color: rgb(107, 76, 35);
 }
 .title{
